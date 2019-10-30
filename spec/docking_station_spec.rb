@@ -13,7 +13,8 @@ describe DockingStation do
     is_expected.to respond_to :bike_dock
   end
   it 'sees a docked bike' do
-
-    expect(bike_in_dock).to be true
+      bike = Bike.new
+      station = DockingStation.new
+    expect(station.bike_in_dock?).to be true
   end
 end
