@@ -1,7 +1,7 @@
 require './lib/docking_station'
 
 describe Bike do
- it 'knows the bike is working'do
+ it 'should respond to method working?'do
    bike = Bike.new
    is_expected.to respond_to :working?
  end
