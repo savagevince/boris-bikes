@@ -17,4 +17,8 @@ describe DockingStation do
       station = DockingStation.new
     expect(station.bike_in_dock?).to be true
   end
+
+  it 'creates an error when there is no bike to release' do
+
+  end
 end

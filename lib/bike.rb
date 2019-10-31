@@ -1,5 +1,5 @@
 class Bike
-  def initialize(bike)
+  def initialize
     @bike = bike
   end
   def working?
