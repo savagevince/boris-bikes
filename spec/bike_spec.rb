@@ -1,4 +1,4 @@
-require './lib/docking_station'
+require './lib/bike'
 
 describe Bike do
  it 'should respond to method working?'do

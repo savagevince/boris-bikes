@@ -9,7 +9,7 @@ describe DockingStation do
   it 'allows a bike to be docked'do
     bike = Bike.new(bike)
     station = DockingStation.new
-    is_expected.to respond_to :dock_bike
+    is_expected.to respond_to (:dock_bike)
   end
 
   it 'sees a docked bike' do
