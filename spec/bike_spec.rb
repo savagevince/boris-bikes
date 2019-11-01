@@ -2,8 +2,7 @@ require './lib/bike'
 
 describe Bike do
  it 'should respond to method working?'do
-   station = DockingStation.new
-   bike = Bike.new(bike)
-   expect(bike.working?).to be true
+   bike = Bike.new
+   expect(bike).to respond_to(:working?)
  end
 end
